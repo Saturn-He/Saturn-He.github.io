@@ -1,0 +1,21 @@
+# Main navigation links
+main:
+  - title: "About Me"
+    title_zh: "关于我"
+    url: "/#about-me"
+
+  - title: "News"
+    title_zh: "新闻"
+    url: "/#news"
+
+  - title: "Publications"
+    title_zh: "论文"
+    url: "/#publications"
+
+  - title: "Experience"
+    title_zh: "经历"
+    url: "/#experience"
+
+  - title: "Services"
+    title_zh: "学术服务"
+    url: "/#services"

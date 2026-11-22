@@ -1,0 +1,50 @@
+[
+  {
+    "date": "2026.11",
+    "emoji": "💻",
+    "content": "Code for [**DOGAN**](https://github.com/Saturn-He/DOGAN) is now available on GitHub.",
+    "content_zh": "[**DOGAN**](https://github.com/Saturn-He/DOGAN) 的代码已在 GitHub 公开。"
+  },
+  {
+    "date": "2026.10",
+    "emoji": "💻",
+    "content": "Code for [**ColorS2O**](https://github.com/Saturn-He/ColorS2O) is now available on GitHub.",
+    "content_zh": "[**ColorS2O**](https://github.com/Saturn-He/ColorS2O) 的代码已在 GitHub 公开。"
+  },
+  {
+    "date": "2026.08",
+    "emoji": "💻",
+    "content": "Code for [**XTile-S2O**](https://github.com/Saturn-He/XTile-S2O) is now available on GitHub.",
+    "content_zh": "[**XTile-S2O**](https://github.com/Saturn-He/XTile-S2O) 的代码已在 GitHub 公开。"
+  },
+  {
+    "date": "2026.08",
+    "emoji": "🗂️",
+    "content": "Released the [**XTile-S2O-Urban76**](https://doi.org/10.5281/zenodo.22082922) dataset on Zenodo: full-scene Sentinel-1/Sentinel-2 pairs from 76 cities (access restricted during peer review).",
+    "content_zh": "在 Zenodo 发布 [**XTile-S2O-Urban76**](https://doi.org/10.5281/zenodo.22082922) 数据集：76 个城市的 Sentinel-1/Sentinel-2 整景影像对（审稿期间为受限访问）。"
+  },
+  {
+    "date": "2026",
+    "emoji": "✈️",
+    "content": "Visiting student at the University of Pavia, Italy, with **Prof. Paolo Gamba**.",
+    "content_zh": "赴意大利帕维亚大学访学，合作导师为 **Paolo Gamba 教授**。"
+  },
+  {
+    "date": "2026.01",
+    "emoji": "📄",
+    "content": "Our paper on [**self-supervised SAR despeckling**](https://doi.org/10.1016/j.isprsjprs.2025.11.025) was published in **ISPRS J. P&RS**.",
+    "content_zh": "合作论文 [**仅基于 SAR 强度影像的自监督去斑**](https://doi.org/10.1016/j.isprsjprs.2025.11.025) 发表于 **ISPRS J. P&RS**。"
+  },
+  {
+    "date": "2025.09",
+    "emoji": "🎉",
+    "content": "Our paper [**DOGAN**](https://doi.org/10.1109/TGRS.2025.3606979) was published in **IEEE TGRS**.",
+    "content_zh": "我们的论文 [**DOGAN**](https://doi.org/10.1109/TGRS.2025.3606979) 发表于 **IEEE TGRS**。"
+  },
+  {
+    "date": "2024.10",
+    "emoji": "🎉",
+    "content": "Our paper [**SWDiff**](https://doi.org/10.1109/TGRS.2024.3485483) was published in **IEEE TGRS**.",
+    "content_zh": "我们的论文 [**SWDiff**](https://doi.org/10.1109/TGRS.2024.3485483) 发表于 **IEEE TGRS**。"
+  }
+]

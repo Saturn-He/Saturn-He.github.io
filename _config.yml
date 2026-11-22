@@ -1,0 +1,187 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# Site Settings
+title                    : "Jingfei He"
+url                      : "https://saturn-he.github.io"
+baseurl                  : ""
+description              : "Generative models for remote sensing"
+description_zh           : "遥感生成模型"
+seo_title                : "Jingfei He (何静飞) | Academic Homepage"
+seo_description          : "Academic homepage of Jingfei He (何静飞), a Ph.D. student at Beijing Institute of Technology working on generative models for remote sensing and SAR-to-optical image translation."
+repository               : "Saturn-He/Saturn-He.github.io"
+google_scholar_stats_use_cdn : true
+google_scholar:
+  id: "tmThcsMAAAAJ"
+  fallback_citation_count: "..."
+  stats_branch: "google-scholar-stats"
+  stats_file: "gs_data.json"
+  stats_cdn_base_urls:
+    - "https://cdn.jsdmirror.com/gh"
+    - "https://cdn.jsdelivr.net/gh"
+  raw_base_url: "https://raw.githubusercontent.com"
+
+# google analytics
+google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+
+# SEO Related
+google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
+bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
+baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
+
+# 网站图标设置
+favicon                  : "images/favicon-32x32.png"
+# logo                     : "images/logo.png"     # 添加网站logo路径
+
+# Site Author
+author:
+  name             : "Jingfei He"
+  name_zh          : "何静飞"
+  citation_name:
+    given: "Jingfei"
+    family: "He"
+  avatar           : "images/avatar.jpg"   # 作者照片（取自 SWDiff 论文 LaTeX 工程 Figure/Authors）
+  bio              : "Beijing Institute of Technology"
+  bio_zh           : "北京理工大学"
+  location         : "Beijing, China"
+  location_zh      : "中国，北京"
+  employer         :
+  pubmed           :
+  googlescholar    : "https://scholar.google.com/citations?user=tmThcsMAAAAJ&hl=en"
+  email            : "jingfeihe25@gmail.com"
+  researchgate     :
+  uri              :     # 留空：侧栏不再显示指向本站自身的"个人网站"链接
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "Saturn-He"
+  google_plus      :
+  keybase          :
+  instagram        :
+  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm           :
+  linkedin         :
+  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
+  orcid            : "https://orcid.org/0009-0001-8551-9631"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          :
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
+
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - docs
+  - google_scholar_crawler
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .github
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /:categories/:title/
+timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

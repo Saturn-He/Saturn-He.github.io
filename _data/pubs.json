@@ -1,0 +1,191 @@
+{
+  "journal": [
+    {
+      "id": "he2025dogan",
+      "title": "DOGAN: DINO-Based Optical-Prior-Driven GAN for SAR-to-Optical Image Translation",
+      "authorRoles": {
+        "equalContribution": [
+          1,
+          2
+        ]
+      },
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "venueShort": "IEEE TGRS",
+      "year": 2025,
+      "badge": "IEEE TGRS 2025",
+      "image": "images/papers/DOGAN.jpg",
+      "doi": "https://doi.org/10.1109/TGRS.2025.3606979",
+      "note": "SAR-to-Optical Image Translation",
+      "links": [
+        {
+          "name": "Paper",
+          "url": "https://doi.org/10.1109/TGRS.2025.3606979"
+        },
+        {
+          "name": "Code",
+          "url": "https://github.com/Saturn-He/DOGAN"
+        }
+      ],
+      "referenceKey": "he2025dogan"
+    },
+    {
+      "id": "chen2026despeckling",
+      "layout": "compact",
+      "title": "Self-Supervised Despeckling Based Solely on SAR Intensity Images: A General Strategy",
+      "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+      "venueShort": "ISPRS J. P&RS",
+      "year": 2026,
+      "badge": "ISPRS J. 2026",
+      "doi": "https://doi.org/10.1016/j.isprsjprs.2025.11.025",
+      "note": "SAR Despeckling",
+      "links": [
+        {
+          "name": "Paper",
+          "url": "https://doi.org/10.1016/j.isprsjprs.2025.11.025"
+        }
+      ],
+      "referenceKey": "chen2026despeckling"
+    },
+    {
+      "id": "chen2024swdiff",
+      "layout": null,
+      "title": "SWDiff: Stage-Wise Hyperspectral Diffusion Model for Hyperspectral Image Classification",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "venueShort": "IEEE TGRS",
+      "year": 2024,
+      "badge": "IEEE TGRS 2024",
+      "doi": "https://doi.org/10.1109/TGRS.2024.3485483",
+      "note": "Hyperspectral Image Classification",
+      "links": [
+        {
+          "name": "Paper",
+          "url": "https://doi.org/10.1109/TGRS.2024.3485483"
+        }
+      ],
+      "referenceKey": "chen2024swdiff",
+      "image": "images/papers/SWDiff.jpg"
+    },
+    {
+      "id": "shi2024brain",
+      "layout": "compact",
+      "title": "A Brain-Inspired Approach for SAR-to-Optical Image Translation Based on Diffusion Models",
+      "venue": "Frontiers in Neuroscience",
+      "venueShort": "Front. Neurosci.",
+      "year": 2024,
+      "badge": "Front. Neurosci. 2024",
+      "doi": "https://doi.org/10.3389/fnins.2024.1352841",
+      "note": "SAR-to-Optical Image Translation",
+      "links": [
+        {
+          "name": "Paper",
+          "url": "https://doi.org/10.3389/fnins.2024.1352841"
+        }
+      ],
+      "referenceKey": "shi2024brain"
+    },
+    {
+      "id": "yu2023gpfnet",
+      "layout": "compact",
+      "title": "GPF-Net: Graph-Polarized Fusion Network for Hyperspectral Image Classification",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "venueShort": "IEEE TGRS",
+      "year": 2023,
+      "badge": "IEEE TGRS 2023",
+      "doi": "https://doi.org/10.1109/TGRS.2023.3304311",
+      "note": "Hyperspectral Image Classification",
+      "links": [
+        {
+          "name": "Paper",
+          "url": "https://doi.org/10.1109/TGRS.2023.3304311"
+        }
+      ],
+      "referenceKey": "yu2023gpfnet"
+    }
+  ],
+  "conference": [
+    {
+      "id": "he2024dualnet",
+      "layout": "compact",
+      "title": "A Dual Network Approach with Enhanced Feature Guidance for SAR-to-Optical Image Translation",
+      "venue": "2024 IEEE International Conference on Signal, Information and Data Processing (ICSIDP)",
+      "venueShort": "IEEE ICSIDP",
+      "year": 2024,
+      "badge": "IEEE ICSIDP 2024",
+      "doi": "https://doi.org/10.1109/ICSIDP62679.2024.10868756",
+      "note": "SAR-to-Optical Image Translation",
+      "links": [
+        {
+          "name": "Paper",
+          "url": "https://doi.org/10.1109/ICSIDP62679.2024.10868756"
+        }
+      ],
+      "referenceKey": "he2024dualnet"
+    }
+  ],
+  "preprint": [
+    {
+      "id": "he2026xtiles2o",
+      "status": "review",
+      "title": "XTile-S2O: Cross-Tile Coherent Full-Scene SAR-to-Optical Image Translation",
+      "venue": "Under review at the ISPRS Journal of Photogrammetry and Remote Sensing",
+      "venueShort": "Under Review",
+      "year": 2026,
+      "badge": "Under Review",
+      "image": "images/papers/XTile-S2O.jpg",
+      "note": "Full-Scene SAR-to-Optical Translation",
+      "links": [
+        {
+          "name": "Code",
+          "url": "https://github.com/Saturn-He/XTile-S2O"
+        },
+        {
+          "name": "Data",
+          "url": "https://doi.org/10.5281/zenodo.22082922"
+        }
+      ],
+      "referenceKey": "he2026xtiles2o"
+    },
+    {
+      "id": "he2026colors2o",
+      "status": "review",
+      "title": "ColorS2O: Controllable SAR-to-Optical Image Translation with Sparse Colour Anchors",
+      "venue": "Under review at the ISPRS Journal of Photogrammetry and Remote Sensing",
+      "venueShort": "Under Review",
+      "year": 2026,
+      "badge": "Under Review",
+      "image": "images/papers/ColorS2O.jpg",
+      "note": "Controllable SAR-to-Optical Translation",
+      "links": [
+        {
+          "name": "Code",
+          "url": "https://github.com/Saturn-He/ColorS2O"
+        }
+      ],
+      "referenceKey": "he2026colors2o"
+    },
+    {
+      "id": "shi2026sadbm",
+      "status": "review",
+      "title": "SADBM: Structure-Aware Diffusion Bridge Model for SAR-to-Optical Image Translation",
+      "authorRoles": {
+        "corresponding": [
+          3
+        ]
+      },
+      "venue": "Under review at IEEE Transactions on Image Processing",
+      "venueShort": "Under Review",
+      "year": 2026,
+      "badge": "Under Review",
+      "image": "images/papers/SADBM.jpg",
+      "note": "SAR-to-Optical Translation",
+      "links": [
+        {
+          "name": "Project",
+          "url": "https://github.com/AproZC/SADBM"
+        }
+      ],
+      "referenceKey": "shi2026sadbm"
+    }
+  ],
+  "patent": []
+}

@@ -1,0 +1,375 @@
+{
+  "he2025dogan": {
+    "id": "he2025dogan",
+    "type": "article-journal",
+    "title": "DOGAN: DINO-Based Optical-Prior-Driven GAN for SAR-to-Optical Image Translation",
+    "author": [
+      {
+        "given": "Jingfei",
+        "family": "He"
+      },
+      {
+        "given": "Liang",
+        "family": "Chen"
+      },
+      {
+        "given": "Hao",
+        "family": "Shi"
+      },
+      {
+        "given": "Yuhang",
+        "family": "Chen"
+      },
+      {
+        "given": "Jingyi",
+        "family": "Yang"
+      },
+      {
+        "given": "Wei",
+        "family": "Li"
+      }
+    ],
+    "container-title": "IEEE Transactions on Geoscience and Remote Sensing",
+    "volume": "63",
+    "page": "1-16",
+    "DOI": "10.1109/TGRS.2025.3606979",
+    "URL": "https://doi.org/10.1109/TGRS.2025.3606979",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "chen2026despeckling": {
+    "id": "chen2026despeckling",
+    "type": "article-journal",
+    "title": "Self-Supervised Despeckling Based Solely on SAR Intensity Images: A General Strategy",
+    "author": [
+      {
+        "given": "Liang",
+        "family": "Chen"
+      },
+      {
+        "given": "Yifei",
+        "family": "Yin"
+      },
+      {
+        "given": "Hao",
+        "family": "Shi"
+      },
+      {
+        "given": "Jingfei",
+        "family": "He"
+      },
+      {
+        "given": "Wei",
+        "family": "Li"
+      }
+    ],
+    "container-title": "ISPRS Journal of Photogrammetry and Remote Sensing",
+    "volume": "231",
+    "page": "854-873",
+    "DOI": "10.1016/j.isprsjprs.2025.11.025",
+    "URL": "https://doi.org/10.1016/j.isprsjprs.2025.11.025",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    }
+  },
+  "chen2024swdiff": {
+    "id": "chen2024swdiff",
+    "type": "article-journal",
+    "title": "SWDiff: Stage-Wise Hyperspectral Diffusion Model for Hyperspectral Image Classification",
+    "author": [
+      {
+        "given": "Liang",
+        "family": "Chen"
+      },
+      {
+        "given": "Jingfei",
+        "family": "He"
+      },
+      {
+        "given": "Hao",
+        "family": "Shi"
+      },
+      {
+        "given": "Jingyi",
+        "family": "Yang"
+      },
+      {
+        "given": "Wei",
+        "family": "Li"
+      }
+    ],
+    "container-title": "IEEE Transactions on Geoscience and Remote Sensing",
+    "volume": "62",
+    "page": "1-17",
+    "DOI": "10.1109/TGRS.2024.3485483",
+    "URL": "https://doi.org/10.1109/TGRS.2024.3485483",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  "shi2024brain": {
+    "id": "shi2024brain",
+    "type": "article-journal",
+    "title": "A Brain-Inspired Approach for SAR-to-Optical Image Translation Based on Diffusion Models",
+    "author": [
+      {
+        "given": "Hao",
+        "family": "Shi"
+      },
+      {
+        "given": "Zihan",
+        "family": "Cui"
+      },
+      {
+        "given": "Liang",
+        "family": "Chen"
+      },
+      {
+        "given": "Jingfei",
+        "family": "He"
+      },
+      {
+        "given": "Jingyi",
+        "family": "Yang"
+      }
+    ],
+    "container-title": "Frontiers in Neuroscience",
+    "volume": "18",
+    "number": "1352841",
+    "DOI": "10.3389/fnins.2024.1352841",
+    "URL": "https://doi.org/10.3389/fnins.2024.1352841",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  "yu2023gpfnet": {
+    "id": "yu2023gpfnet",
+    "type": "article-journal",
+    "title": "GPF-Net: Graph-Polarized Fusion Network for Hyperspectral Image Classification",
+    "author": [
+      {
+        "given": "Qixing",
+        "family": "Yu"
+      },
+      {
+        "given": "Weibo",
+        "family": "Wei"
+      },
+      {
+        "given": "Zhenkuan",
+        "family": "Pan"
+      },
+      {
+        "given": "Jingfei",
+        "family": "He"
+      },
+      {
+        "given": "Shaohua",
+        "family": "Wang"
+      },
+      {
+        "given": "Danfeng",
+        "family": "Hong"
+      }
+    ],
+    "container-title": "IEEE Transactions on Geoscience and Remote Sensing",
+    "volume": "61",
+    "page": "1-22",
+    "DOI": "10.1109/TGRS.2023.3304311",
+    "URL": "https://doi.org/10.1109/TGRS.2023.3304311",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    }
+  },
+  "he2024dualnet": {
+    "id": "he2024dualnet",
+    "type": "paper-conference",
+    "title": "A Dual Network Approach with Enhanced Feature Guidance for SAR-to-Optical Image Translation",
+    "author": [
+      {
+        "given": "Jingfei",
+        "family": "He"
+      },
+      {
+        "given": "Yongfei",
+        "family": "Mao"
+      },
+      {
+        "given": "Liangbo",
+        "family": "Zhao"
+      },
+      {
+        "given": "Zihan",
+        "family": "Cui"
+      },
+      {
+        "given": "Yu",
+        "family": "Wang"
+      },
+      {
+        "given": "Hao",
+        "family": "Shi"
+      }
+    ],
+    "container-title": "2024 IEEE International Conference on Signal, Information and Data Processing (ICSIDP)",
+    "page": "1-6",
+    "DOI": "10.1109/ICSIDP62679.2024.10868756",
+    "URL": "https://doi.org/10.1109/ICSIDP62679.2024.10868756",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  "he2026xtiles2o": {
+    "id": "he2026xtiles2o",
+    "type": "manuscript",
+    "title": "XTile-S2O: Cross-Tile Coherent Full-Scene SAR-to-Optical Image Translation",
+    "author": [
+      {
+        "given": "Jingfei",
+        "family": "He"
+      },
+      {
+        "given": "Hao",
+        "family": "Shi"
+      },
+      {
+        "given": "Yuhang",
+        "family": "Chen"
+      },
+      {
+        "given": "Yunzhuo",
+        "family": "Zeng"
+      },
+      {
+        "given": "Ruiqi",
+        "family": "Shi"
+      },
+      {
+        "given": "Liang",
+        "family": "Chen"
+      },
+      {
+        "given": "Paolo",
+        "family": "Gamba"
+      }
+    ],
+    "note": "Manuscript under review at the ISPRS Journal of Photogrammetry and Remote Sensing",
+    "URL": "https://github.com/Saturn-He/XTile-S2O",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    }
+  },
+  "he2026colors2o": {
+    "id": "he2026colors2o",
+    "type": "manuscript",
+    "title": "ColorS2O: Controllable SAR-to-Optical Image Translation with Sparse Colour Anchors",
+    "author": [
+      {
+        "given": "Jingfei",
+        "family": "He"
+      },
+      {
+        "given": "Hao",
+        "family": "Shi"
+      },
+      {
+        "given": "Yuhang",
+        "family": "Chen"
+      },
+      {
+        "given": "Rui",
+        "family": "Fan"
+      },
+      {
+        "given": "Paolo",
+        "family": "Gamba"
+      },
+      {
+        "given": "Liang",
+        "family": "Chen"
+      }
+    ],
+    "note": "Manuscript under review at the ISPRS Journal of Photogrammetry and Remote Sensing",
+    "URL": "https://github.com/Saturn-He/ColorS2O",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    }
+  },
+  "shi2026sadbm": {
+    "id": "shi2026sadbm",
+    "type": "manuscript",
+    "title": "Structure-Aware Diffusion Bridge Model for SAR-to-Optical Image Translation",
+    "author": [
+      {
+        "given": "Hao",
+        "family": "Shi"
+      },
+      {
+        "given": "Yuhang",
+        "family": "Chen"
+      },
+      {
+        "given": "Jingfei",
+        "family": "He"
+      },
+      {
+        "given": "Jingyi",
+        "family": "Yang"
+      },
+      {
+        "given": "Bowen",
+        "family": "Xu"
+      },
+      {
+        "given": "Liang",
+        "family": "Chen"
+      },
+      {
+        "given": "Wei",
+        "family": "Li"
+      }
+    ],
+    "note": "Manuscript under review at IEEE Transactions on Image Processing",
+    "URL": "https://github.com/AproZC/SADBM",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    }
+  }
+}
