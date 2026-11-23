@@ -72,7 +72,11 @@ $jh-teal: #0f6f6b;
   user-select: none;
   -webkit-user-drag: none;
 }
-.compare__img--top {
+/* The translated image and its tag share one clipped layer above the SAR
+   image and the SAR tag, so each tag is covered or revealed with its image. */
+.compare__layer {
+  position: absolute;
+  inset: 0;
   clip-path: inset(0 0 0 var(--pos, 50%));
 }
 .compare__line {

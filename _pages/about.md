@@ -45,10 +45,12 @@ If my work interests you or you would like to explore a collaboration, I would b
 <figure class="compare">
   <div class="compare__stage" id="compare" style="--pos: 50%">
     <img class="compare__img" src="images/hero_sar.jpg" alt="SAR image of a dense residential area" width="664" height="664">
-    <img class="compare__img compare__img--top" src="images/hero_opt.jpg" alt="Optical image translated from the SAR image by DOGAN" width="664" height="664">
-    <span class="compare__line" aria-hidden="true"><span class="compare__knob"></span></span>
     <span class="compare__tag compare__tag--l" aria-hidden="true">SAR</span>
-    <span class="compare__tag compare__tag--r" aria-hidden="true"><span class="lang-en">Translated optical</span><span class="lang-zh">转换光学图</span></span>
+    <div class="compare__layer">
+      <img class="compare__img" src="images/hero_opt.jpg" alt="Optical image translated from the SAR image by DOGAN" width="664" height="664">
+      <span class="compare__tag compare__tag--r" aria-hidden="true"><span class="lang-en">Translated optical</span><span class="lang-zh">转换光学图</span></span>
+    </div>
+    <span class="compare__line" aria-hidden="true"><span class="compare__knob"></span></span>
     <input class="compare__range" type="range" min="0" max="100" value="50" step="1" aria-label="Slide to compare the SAR input with the DOGAN translation">
   </div>
   <figcaption><span class="lang-en">Drag to compare: SAR input and DOGAN translation (an SAR2Opt example from the DOGAN paper).</span><span class="lang-zh">左右拖动对比：SAR 输入与 DOGAN 转换结果（DOGAN 论文中的 SAR2Opt 样例）。</span></figcaption>
