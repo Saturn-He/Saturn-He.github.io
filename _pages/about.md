@@ -23,7 +23,7 @@ My research focuses on generative models for remote sensing, in particular **SAR
 - **<span class="ri ri--2">Controllable translation</span>**: controlling the colours of translated images with sparse colour anchors.
 - **<span class="ri ri--3">Full-scene consistency</span>**: translating large scenes tile by tile while keeping the whole scene spatially consistent.
 
-If my work interests you or you would like to explore a collaboration, I would be glad to hear from you at <a href="mailto:jingfeihe25@gmail.com" class="jh-email-copy" data-email="jingfeihe25@gmail.com">jingfeihe25@gmail.com<span class="jh-tip" role="tooltip"><span class="jh-tip__state jh-tip__state--hint">Click to copy</span><span class="jh-tip__state jh-tip__state--ok">Copied</span><span class="jh-tip__state jh-tip__state--fail">Copy failed — please copy it manually</span></span></a> <a href="mailto:jingfeihe25@gmail.com" class="jh-email-send jh-email-send--inline" aria-label="Send email from your mail app"><i class="fas fa-paper-plane" aria-hidden="true"></i><span class="jh-tip" role="tooltip">Write to me directly in your mail app</span></a>.
+If my work interests you or you would like to explore a collaboration, I would be glad to hear from you at <a href="mailto:jingfeihe25@gmail.com" class="jh-email-open" data-email="jingfeihe25@gmail.com" aria-haspopup="dialog">jingfeihe25@gmail.com</a>.
 
 </div>
 
@@ -37,7 +37,7 @@ If my work interests you or you would like to explore a collaboration, I would b
 - **<span class="ri ri--2">可控转换</span>**：用稀疏颜色锚点控制转换结果的颜色。
 - **<span class="ri ri--3">整景一致性</span>**：逐块转换大范围场景，同时保持整景的空间一致。
 
-如果你对我的研究感兴趣，或有合作的想法，欢迎来信交流：<a href="mailto:jingfeihe25@gmail.com" class="jh-email-copy" data-email="jingfeihe25@gmail.com">jingfeihe25@gmail.com<span class="jh-tip" role="tooltip"><span class="jh-tip__state jh-tip__state--hint">点击复制</span><span class="jh-tip__state jh-tip__state--ok">已复制</span><span class="jh-tip__state jh-tip__state--fail">复制失败，请手动复制</span></span></a> <a href="mailto:jingfeihe25@gmail.com" class="jh-email-send jh-email-send--inline" aria-label="用邮件程序发邮件"><i class="fas fa-paper-plane" aria-hidden="true"></i><span class="jh-tip" role="tooltip">用邮件程序直接发邮件给我</span></a>。
+如果你对我的研究感兴趣，或有合作的想法，欢迎来信交流：<a href="mailto:jingfeihe25@gmail.com" class="jh-email-open" data-email="jingfeihe25@gmail.com" aria-haspopup="dialog">jingfeihe25@gmail.com</a>。
 
 </div>
 

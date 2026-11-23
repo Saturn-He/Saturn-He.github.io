@@ -220,97 +220,65 @@ html[data-theme="dark"] {
   }
 }
 
-/* Sidebar e-mail: hover shows the address, click copies it (email-copy.js);
-   the paper-plane link opens the visitor's mail app. */
-.jh-email-copy,
-.jh-email-send {
-  position: relative;
+/* Contact dialog for the e-mail links (assets/js/email-dialog.js); reuses the citation dialog look */
+.email-modal__panel {
+  width: min(600px, 100%);
 }
-.jh-tip {
-  display: none;
-  position: absolute;
-  left: 0;
-  top: calc(100% + 4px);
-  z-index: 30;
-  padding: 5px 9px;
-  border-radius: 5px;
-  font-family: $sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0;
-  white-space: nowrap;
-  color: #fff;
-  background: rgba(8, 30, 30, 0.92);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  pointer-events: none;
-}
-.jh-email-copy:hover .jh-tip,
-.jh-email-copy:focus-visible .jh-tip,
-.jh-email-copy.is-copied .jh-tip,
-.jh-email-copy.is-copy-failed .jh-tip,
-.jh-email-send:hover .jh-tip,
-.jh-email-send:focus-visible .jh-tip {
-  display: block;
-}
-.jh-tip__addr {
-  display: block;
-  font-weight: 600;
-}
-.jh-tip__state {
-  display: none;
-  opacity: 0.85;
-}
-.jh-tip__state--hint {
-  display: inline;
-}
-.is-copied .jh-tip__state--hint,
-.is-copy-failed .jh-tip__state--hint {
-  display: none;
-}
-.is-copied .jh-tip__state--ok,
-.is-copy-failed .jh-tip__state--fail {
-  display: inline;
-}
-.is-copied .jh-tip__state--ok {
-  color: #7fe0c8;
-  opacity: 1;
-}
-html[data-theme="dark"] .jh-tip {
-  background: rgba(230, 240, 238, 0.95);
-  color: #10211f;
-}
-html[data-theme="dark"] .is-copied .jh-tip__state--ok {
+.email-modal__address {
+  margin: 0.3rem 0 0;
   color: #0f6f6b;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: 0.95rem;
+  font-weight: 600;
+  user-select: all;
 }
-/* desktop list: tip sits to the right of the label so it never covers the next link */
-.author__urls .jh-email-copy,
-.author__urls .jh-email-send {
-  display: inline-block;
+.email-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.85rem;
+  padding-bottom: 1.2rem;
 }
-.author__urls .jh-tip {
-  left: calc(100% + 8px);
-  top: 50%;
-  transform: translateY(-50%);
+.email-option {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.9rem 1rem 1rem;
+  background: rgba(244, 248, 252, 0.62);
+  border: 1px solid rgba(15, 111, 107, 0.12);
+  border-radius: 10px;
 }
-/* phone icon row: right-align the tip under the icon so long text stays on screen */
-.author__urls_sm .jh-tip {
-  left: auto;
-  right: 0;
+.email-option__title {
+  margin: 0;
+  color: #24364b;
+  font-size: 0.92rem;
+  font-weight: 700;
+  i { margin-right: 0.35em; color: #0f6f6b; }
 }
-/* footer row: tip opens above the link and keeps normal case (the footer links are uppercase) */
-.jh-tip {
-  text-transform: none;
+.email-option__desc {
+  flex: 1 1 auto;
+  margin: 0;
+  color: #536273;
+  font-size: 0.8rem;
+  line-height: 1.6;
 }
-.page__footer-follow .jh-tip {
-  left: 50%;
-  top: auto;
-  bottom: calc(100% + 6px);
-  transform: translateX(-50%);
-}
-/* intro sentence: small paper-plane icon after the address */
-.jh-email-send--inline {
-  margin-left: 0.15em;
-  font-size: 0.85em;
+.email-option__btn {
+  align-self: stretch;
   text-decoration: none;
+}
+a.citation-download-btn.email-option__btn:hover {
+  text-decoration: none;
+}
+html[data-theme="dark"] {
+  .email-modal__address { color: #8fdccf; }
+  .email-option {
+    background: rgba(16, 18, 22, 0.56);
+    border-color: rgba(143, 220, 207, 0.14);
+  }
+  .email-option__title { color: #edf4fb; i { color: #8fdccf; } }
+  .email-option__desc { color: #aebccc; }
+}
+@media (max-width: 520px) {
+  .email-options {
+    grid-template-columns: 1fr;
+  }
 }
