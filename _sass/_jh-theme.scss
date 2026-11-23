@@ -219,3 +219,98 @@ html[data-theme="dark"] {
     color: #9aa6b2;
   }
 }
+
+/* Sidebar e-mail: hover shows the address, click copies it (email-copy.js);
+   the paper-plane link opens the visitor's mail app. */
+.jh-email-copy,
+.jh-email-send {
+  position: relative;
+}
+.jh-tip {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: calc(100% + 4px);
+  z-index: 30;
+  padding: 5px 9px;
+  border-radius: 5px;
+  font-family: $sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0;
+  white-space: nowrap;
+  color: #fff;
+  background: rgba(8, 30, 30, 0.92);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  pointer-events: none;
+}
+.jh-email-copy:hover .jh-tip,
+.jh-email-copy:focus-visible .jh-tip,
+.jh-email-copy.is-copied .jh-tip,
+.jh-email-copy.is-copy-failed .jh-tip,
+.jh-email-send:hover .jh-tip,
+.jh-email-send:focus-visible .jh-tip {
+  display: block;
+}
+.jh-tip__addr {
+  display: block;
+  font-weight: 600;
+}
+.jh-tip__state {
+  display: none;
+  opacity: 0.85;
+}
+.jh-tip__state--hint {
+  display: inline;
+}
+.is-copied .jh-tip__state--hint,
+.is-copy-failed .jh-tip__state--hint {
+  display: none;
+}
+.is-copied .jh-tip__state--ok,
+.is-copy-failed .jh-tip__state--fail {
+  display: inline;
+}
+.is-copied .jh-tip__state--ok {
+  color: #7fe0c8;
+  opacity: 1;
+}
+html[data-theme="dark"] .jh-tip {
+  background: rgba(230, 240, 238, 0.95);
+  color: #10211f;
+}
+html[data-theme="dark"] .is-copied .jh-tip__state--ok {
+  color: #0f6f6b;
+}
+/* desktop list: tip sits to the right of the label so it never covers the next link */
+.author__urls .jh-email-copy,
+.author__urls .jh-email-send {
+  display: inline-block;
+}
+.author__urls .jh-tip {
+  left: calc(100% + 8px);
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* phone icon row: right-align the tip under the icon so long text stays on screen */
+.author__urls_sm .jh-tip {
+  left: auto;
+  right: 0;
+}
+/* footer row: tip opens above the link and keeps normal case (the footer links are uppercase) */
+.jh-tip {
+  text-transform: none;
+}
+.page__footer-follow .jh-tip {
+  left: 50%;
+  top: auto;
+  bottom: calc(100% + 6px);
+  transform: translateX(-50%);
+}
+/* intro sentence: small paper-plane icon after the address */
+.jh-email-send--inline {
+  margin-left: 0.15em;
+  font-size: 0.85em;
+  text-decoration: none;
+}

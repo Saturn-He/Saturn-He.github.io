@@ -45,8 +45,22 @@ endif %}
       </li>
       {% endif %} {% if author.email %}
       <li>
-        <a href="mailto:{{ author.email }}"
-          ><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> <span class="lang-en">Email</span><span class="lang-zh">邮箱</span></a
+        <a href="mailto:{{ author.email }}" class="jh-email-copy" data-email="{{ author.email }}"
+          ><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> <span class="lang-en">Email</span><span class="lang-zh">邮箱</span
+          ><span class="jh-tip" role="tooltip"
+            ><span class="jh-tip__addr">{{ author.email }}</span
+            ><span class="jh-tip__state jh-tip__state--hint"><span class="lang-en">Click to copy</span><span class="lang-zh">点击复制</span></span
+            ><span class="jh-tip__state jh-tip__state--ok"><span class="lang-en">Copied</span><span class="lang-zh">已复制</span></span
+            ><span class="jh-tip__state jh-tip__state--fail"><span class="lang-en">Copy failed — please copy it manually</span><span class="lang-zh">复制失败，请手动复制</span></span
+          ></span></a
+        >
+      </li>
+      <li>
+        <a href="mailto:{{ author.email }}" class="jh-email-send"
+          ><i class="fas fa-fw fa-paper-plane" aria-hidden="true"></i> <span class="lang-en">Send email</span><span class="lang-zh">发邮件</span
+          ><span class="jh-tip" role="tooltip"
+            ><span class="lang-en">Write to me directly in your mail app</span><span class="lang-zh">用邮件程序直接发邮件给我</span></span
+          ></a
         >
       </li>
       {% endif %} {% if author.keybase %}
@@ -251,9 +265,19 @@ endif %}
         ><i class="fas fa-fw fa-link" aria-hidden="true"></i
       ></a>
       {% endif %} {% if author.email %}
-      <a href="mailto:{{ author.email }}"
+      <a href="mailto:{{ author.email }}" class="jh-email-copy" data-email="{{ author.email }}" aria-label="Email"
         ><i class="fas fa-fw fa-envelope" aria-hidden="true"></i
-      ></a>
+        ><span class="jh-tip" role="tooltip"
+            ><span class="jh-tip__addr">{{ author.email }}</span
+            ><span class="jh-tip__state jh-tip__state--hint"><span class="lang-en">Click to copy</span><span class="lang-zh">点击复制</span></span
+            ><span class="jh-tip__state jh-tip__state--ok"><span class="lang-en">Copied</span><span class="lang-zh">已复制</span></span
+            ><span class="jh-tip__state jh-tip__state--fail"><span class="lang-en">Copy failed — please copy it manually</span><span class="lang-zh">复制失败，请手动复制</span></span
+          ></span></a>
+      <a href="mailto:{{ author.email }}" class="jh-email-send" aria-label="Send email"
+        ><i class="fas fa-fw fa-paper-plane" aria-hidden="true"></i
+        ><span class="jh-tip" role="tooltip"
+            ><span class="lang-en">Write to me directly in your mail app</span><span class="lang-zh">用邮件程序直接发邮件给我</span></span
+          ></a>
       {% endif %} {% if author.keybase %}
       <a href="https://keybase.io/{{ author.keybase }}"
         ><i class="fas fa-fw fa-key" aria-hidden="true"></i

@@ -37,9 +37,27 @@
             <li>
               <a
                 href="mailto:{{ site.author.email }}"
+                class="jh-email-copy"
+                data-email="{{ site.author.email }}"
                 rel="nofollow noopener noreferrer"
                 ><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i>
-                Email</a
+                Email<span class="jh-tip" role="tooltip"
+                  ><span class="jh-tip__addr">{{ site.author.email }}</span
+                  ><span class="jh-tip__state jh-tip__state--hint"><span class="lang-en">Click to copy</span><span class="lang-zh">点击复制</span></span
+                  ><span class="jh-tip__state jh-tip__state--ok"><span class="lang-en">Copied</span><span class="lang-zh">已复制</span></span
+                  ><span class="jh-tip__state jh-tip__state--fail"><span class="lang-en">Copy failed — please copy it manually</span><span class="lang-zh">复制失败，请手动复制</span></span
+                ></span></a
+              >
+            </li>
+            <li>
+              <a
+                href="mailto:{{ site.author.email }}"
+                class="jh-email-send"
+                rel="nofollow noopener noreferrer"
+                ><i class="fas fa-fw fa-paper-plane" aria-hidden="true"></i>
+                Send email<span class="jh-tip" role="tooltip"
+                  ><span class="lang-en">Write to me directly in your mail app</span><span class="lang-zh">用邮件程序直接发邮件给我</span></span
+                ></a
               >
             </li>
             {% endif %}
